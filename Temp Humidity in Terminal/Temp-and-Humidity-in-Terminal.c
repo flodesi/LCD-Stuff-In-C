@@ -13,7 +13,6 @@
  */
 
 #include <wiringPi.h>
-#include <lcd.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
@@ -22,7 +21,6 @@
 #define max 85
 #define dhtPin 3
 
-int lcd;
 int data[5] = {0, 0, 0, 0, 0};
 
 void dht11Sensor()
